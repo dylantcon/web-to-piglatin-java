@@ -1,0 +1,187 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.79 [en] (Win98; U) [Netscape]">
+   <title>HW 4</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF">
+
+<h1>
+Assignmentway #4 -- Igpay Atinlay ebway agepay anslatortray</h1>
+<b>Ueday</b>: Uestay, Octway 22
+
+<h2>Objectiveway</h2>
+
+Isthay assignmentway illway involveway acticepray ithway aracterschay andway ingsstray, usingway 
+ethay ibrarieslay iscussedday inway assclay (Ingstray, IngBuilderstray, Aracterchay), asway 
+ellway asway asicbay Ilefay Iway/Oway (ithway exttay ilesfay).
+
+<h2>Asktay</h2>
+Itewray away ogrampray inway away assclay alledcay <tt>EbToPigLatinway</tt> (ilenamefay 
+<tt>EbToPigLatinway.avajay</tt>) atthay illway anslatetray ebway agepay ontentcay (html 
+ilesfay) otay Igpay Atinlay ersionsvay ofway ethay agepay.
+
+<h2>Equirementsray</h2>
+
+<h3>1) Ommandcay ucturestray</h3>
+
+Ethay ogrampray ouldshay aketay itsway inputway informationway oughthray otway ommandcay inelay 
+arameterspay.  Ethay usageway ormatfay isway:
+<pre>
+  avajay EbToPigLatinway <i>inputFileway</i> <i>outputFileway</i>
+</pre>
+
+Exampleway:
+<pre>
+  avajay EbToPigLatinway agepay1.html igpagepay1.html
+</pre>
+Inway ethay aboveway exampleway, ethay inputway agepay isway <tt>agepay1.html</tt>.  Ethay 
+esultsray ouldshay ebay ittenwray otay ethay ilefay <tt>igpagepay1.html</tt>.
+
+<p>Ifway ethay ommandcay otay ethay ogrampray isway ivengay incorrectlyway, intpray outway away usageway 
+essagemay ikelay:
+<pre>
+  Usageway: avajay EbToPigLatinway inputFileway outputFileway
+  Ustmay avehay otway ommandcay-inelay arameterspay
+</pre>
+andway abortway.
+
+<h3>2) Igpay-Atinlay ulesray</h3>
+
+Orfay ourway urposespay, eway illway useway ethay ollowingfay asway ethay ulesray orfay 
+anslationtray ofway away ordway intoway "Igpay Atinlay":
+ 
+<ol>
+<li>Away <b>ordway</b> otay ebay anslatedtray isway away onsecutivecay equencesay ofway etterslay 
+(away-z, Away-Z) orway apostrophesway (ustmay artstay ithway away etterlay), ontainingcay atway eastlay oneway owelvay (orway y inway away 
+owelvay ositionpay). <br>Examplesway: <tt>Ebrazay , oesn'tday , appleway, 
+ythmrhay</tt></li>
+
+<li>Ifway away ordway artsstay ithway away owelvay, ethay Igpay Atinlay ersionvay isway ethay originalway
+ordway ithway "ayway" addedway otay ethay endway</li>
+
+<li>Ifway away ordway artsstay ithway away onsonantcay, orway away eriessay ofway onsecutivecay
+onsonantscay, ethay Igpay Atinlay ersionvay ansferstray allway onsonantscay upway otay ethay irstfay
+owelvay otay ethay <b>endway</b> ofway ethay ordway, andway addsway "ayway" otay ethay endway.</li>
+
+<li>Ethay etterlay 'y' ouldshay ebay eatedtray asway away onsonantcay ifway itway isway ethay irstfay
+etterlay ofway away ordway, utbay eatedtray asway away owelvay otherwiseway.</li>
+
+<li>Ifway ethay originalway ordway isway apitalizedcay, ethay ewnay Igpay Atinlay ersionvay ofway ethay 
+ordway ouldshay ebay apitalizedcay inway ethay irstfay etterlay (iway.eway. ethay eviouspray apitalcay 
+etterlay aymay otnay ebay apitalizedcay anyway oremay).</li>
+
+</ol>
+
+</li>
+
+Examplesway ofway igpay atinlay anslationstray ofway ordsway, underway esethay ulesray:
+<br>&nbsp;
+
+<table BORDER CELLSPACING=2 CELLPADDING=5 >
+<tr><th>Ordway</th><th>IgLatinpay ersionvay</th></tr>
+
+<tr><td>Owerflay</td><td>Owerflayway</td></tr>
+<tr><td>ellowyay</td><td>ellowyayway</td></tr>
+<tr><td>ypassbay</td><td>assbayypay</td></tr>
+<tr><td>appleway</td><td>applewayway</td></tr>
+<tr><td>Iglooway</td><td>Igloowayway</td></tr>
+<tr><td>ingstray</td><td>ingstrayway</td></tr>
+<tr><td>Amburgerhay</td><td>Amburgerhayway</td></tr>
+<tr><td>Ythmrhay</td><td>Ayythmrhay</td></tr>
+<tr><td>ueenqay</td><td>ueenqayway</td></tr>
+<tr><td>ippityzay</td><td>ippityzayway</td></tr>
+
+</table>
+
+<h3>3) Ilefay andlinghay ulesray</h3>
+
+Orfay ethay urposespay ofway anslatingtray onlyway ethay ONTENTcay ofway anway html ilefay (iway.eway. away 
+ebway agepay), easeplay observeway ethay ollowingfay equirementsray:
+
+<ol> 
+<li>Anythingway atthay appearsway insideway ofway html agstay isway otnay ontentcay, osay itway 
+ouldshay otnay ebay onvertedcay.  Exampleway:
+<pre>
+  &lt;ontfay izesay="-1" acefay="Arialway, Elveticahay, anssay-erifsay">Addayay Addayay&lt;/ontfay>
+</pre>
+Inway isthay agtay, onlyway "Addayay Addayay" isway ontentcay. Ethay estray isway otnay anslatedtray.
+<br>&nbsp;
+</li>
+
+<li>Anyway itemway atthay itsfay ethay atternpay ofway <tt>&amp;<i>exttay</i>;</tt> isway otnay 
+ontentcay. Esethay areway ecialspay html arkersmay orfay acingplay ymbolssay ikelay uotesqay 
+andway ampersandsway, atthay otherwiseway avehay ecialspay eaningmay otay owsersbray.  
+Exampleway:
+<pre>
+  &amp;nbsp;Ellohay erethay		// onlyway "Ellohay erethay" isway ontentcay
+  &amp;uoteqay;Ellohay erethay&amp;uoteqay;	// onlyway "Ellohay erethay" isway ontentcay
+</pre>
+</li>
+
+<li>Oday otnay onsidercay unctuationpay (otherway anthay apostrophesway) otay ebay artspay ofway 
+ordsway (iway.eway. 
+eythay ouldshay otnay ebay artpay ofway ordway anslationstray).  Unctuationpay illway illstay 
+appearway inway ethay ontentcay inway ethay appropriateway acesplay, afterway anslationtray.  
+Exampleway:
+<pre>
+   Ethay attentiveway, illiantbray Avajay udent'sstay iendfray asway appyhay.
+</pre>
+anslatestray otay
+<pre>
+   Ethayway attentivewayway, illiantbrayway Avajayway udent'sstayway iendfrayway aswayway appyhayway.
+</pre>
+</li>
+
+<li>Umbersnay onway ebway agespay areway obviouslyway otnay anslatabletray, osay eavelay emthay 
+asway-isway.<br>&nbsp;
+</li>
+
+<li>Abbreviationsway ithway onay owelsvay inway emthay areway otnay anslatabletray, osay eavelay 
+emthay asway-isway.<br>&nbsp;
+</li>
+
+<li>Anythingway omfray ethay html ilefay atthay isway otnay anslatedtray otay Igpay Atinlay 
+ouldshay illstay appearway inway ethay ilefay asway-isway. iway.eway. ethay intentway isway atthay ethay 
+esultingray ebway agepay ouldshay illstay appearway ethay amesay asway ethay originalway, implysay 
+ithway allway ofway ethay ontentcay ordsway onvertedcay otay Igpay Atinlay.
+</li>
+
+
+</ol>
+
+<hr>
+
+<h2>Eneralgay Equirementsray andway Intshay</h2>
+
+<ul>
+<li>Ouryay odecay ouldshay ebay eadableray andway ellway-ocumentedday</li>
+<li>Ouyay aymay akemay useway ofway anyway ofway ethay eaturesfay ofway ethay <tt>Ingstray</tt>, 
+<tt>IngBuilderstray</tt> andway <tt>Aracterchay</tt> assclay ibrarieslay.  Eachway ofway 
+esethay isway inway ethay <tt>avajay.anglay</tt> ackagepay.</li>
+<li>Orfay Ilefay Iway/Oway, ecommendedray ibrarieslay areway:
+  <ul>
+  <li><tt>avajay.utilway.Annerscay</tt></li>
+  <li><tt>avajay.ioway.IleReaderfay</tt> -- orfay eadingray inglesay aracterschay atway away imetay</li>
+  <li><tt>avajay.ioway.IleWriterfay</tt></li>
+  <li><tt>avajay.utilway.Ormatterfay</tt></li>
+  </ul>
+</li>
+<li>Ackpay ouryay ogrampray intoway away <i>unnableray</i> arjay ilefay alledcay 
+<tt>hw4.arjay</tt> orfay ubmittingsay.</li>
+
+</ul>
+
+<hr>
+
+<h3>  
+Ubmittingsay:</h3>
+
+Ackpay ethay ogrampray andway ourcesay odecay intoway away <i>unnableray</i> arjay ilefay alledcay 
+<tt>hw4.arjay</tt> orfay ubmittingsay.
+
+<p>Ubmitsay ouryay arjay ilefay oughthray ethay Assignmentway 4 Anvascay inklay
+
+</body>
+</html>
